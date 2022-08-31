@@ -1,0 +1,12 @@
+dataset: "billsum"
+data_type: "test"
+model_name_or_path: "/mnt/bn/workspace-lxn/ptms/bert-base-uncased"
+# model_name_or_path: "/mnt/bn/workspace-lxn/ptms/sbert"
+
+data_path: "data/"
+output_path: "tmp_file/"
+
+method: "cls"
+batch_size: 4096
+max_length: 80
+middle_layers: []

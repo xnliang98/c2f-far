@@ -1,0 +1,19 @@
+data_path: "data/"
+dataset: "billsum"
+output_path: "tmp_file"
+model_path: "/mnt/bn/workspace-lxn/ptms/bert-base-uncased"
+method: "cls"
+
+data_type: "test"
+extract_num: 
+num_tokens: 200
+filter_num: 0
+beta: 0.0
+lambda1: 0.5
+lambda2: 0.5
+alpha: 1
+delta: 1
+processors: 8
+sim_method: "dot-product"
+# sim_method: "cosin-sim"
+max_length: 80
